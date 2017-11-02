@@ -2,32 +2,50 @@
 
 ## Usage
 ```
-git clone git@github.com:amazingandyyy/react-restart.git
+git clone https://github.com/amazingandyyy/react-redux-daap.git
 npm install
 npm run dev
+<!-- open browser http://localhost:5000 -->
 ```
 
 ## Build & Run
 ```
 npm run build && npm run start
-<!-- open browser http://localhost:5000 -->
 ```
 
-## Start: MVP
-- create index.html, add #id element
-- add webpack, setup entry and output, read jsx with babel-loader
-- add .babelrc, install mutiple babel packages
-- use webpack-dev-server serve the files
-- finish react MVP
+## React
+Clone from my [this repo](https://github.com/amazingandyyy/react-restart)
 
-## React-router and Redux
-- add react-router
-- add redux, react-redux
+## Add Ethjs
+Add Ethjs to the project, you can find Eth in state and use it as web3.eth.
+### Sample Usage
+check the file of about component, as following
+```javascript
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
-## Update Webpack
-- add webpack.common.js
-- merge with webpack.dev.js
-- merge with webpack.prod.js
+const About = (props) => {
+	console.log(props.Eth);
+	return (
+		<div>
+			Current provider: {props.Eth.currentProvider.host}
+		</div>
+	)
+};
+
+export default connect(({ Eth }) => ({ Eth }), null)(About);
+
+```
+
+## Versions
+Library |   version
+---     |   ---
+react   |   v16.0.0
+redux   |   v3.7.1
+ethjs   |   v0.3.0
+react-router | v4.2.2
+babel-preset-es2017 | 6.24.1
+webpack | v3.6.0
 
 ## License
-[MIT](https://github.com/amazingandyyy/react-restart/blob/master/LICENSE)
+[MIT](https://github.com/amazingandyyy/react-redux-daap/blob/master/LICENSE)
