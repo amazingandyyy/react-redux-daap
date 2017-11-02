@@ -1,4 +1,4 @@
-# React Restart
+# React Redux Daap (Ready for Ethereum)
 
 ## Usage
 ```
@@ -8,7 +8,7 @@ npm run dev
 <!-- open browser http://localhost:5000 -->
 ```
 
-## Build & Run
+## production build & run
 ```
 npm run build && npm run start
 ```
@@ -16,7 +16,7 @@ npm run build && npm run start
 ## React
 Clone from my [this repo](https://github.com/amazingandyyy/react-restart)
 
-## Add Ethjs
+## Ethjs
 Add Ethjs to the project, you can find Eth in state and use it as web3.eth.
 ### Sample Usage
 check the file of about component, as following
@@ -47,9 +47,9 @@ react-router | v4.2.2
 babel-preset-es2017 | 6.24.1
 webpack | v3.6.0
 
-## About usage of web3 or ethjs
+## About usage of web3 and ethjs
 - check official [wiki](https://github.com/ethereum/wiki/wiki/JavaScript-API) or [docs](https://web3js.readthedocs.io/en/1.0/web3-eth.html) for web3js
 - check official repo for [ethjs](https://github.com/ethjs/ethjs)
 
 ## License
-[MIT](https://github.com/amazingandyyy/react-redux-daap/blob/master/LICENSE)
+🍺 [MIT](https://github.com/amazingandyyy/react-redux-daap/blob/master/LICENSE)
