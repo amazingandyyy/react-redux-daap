@@ -48,8 +48,8 @@ babel-preset-es2017 | 6.24.1
 webpack | v3.6.0
 
 ## About usage of web3 or ethjs
-- check official docs for [web3](https://github.com/ethereum/wiki/wiki/JavaScript-API)
-- check official docs for [ethjs](https://github.com/ethjs/ethjs)
+- check official [wiki](https://github.com/ethereum/wiki/wiki/JavaScript-API) or [docs](https://web3js.readthedocs.io/en/1.0/web3-eth.html) for web3js
+- check official repo for [ethjs](https://github.com/ethjs/ethjs)
 
 ## License
 [MIT](https://github.com/amazingandyyy/react-redux-daap/blob/master/LICENSE)
