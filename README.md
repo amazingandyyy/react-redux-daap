@@ -47,5 +47,9 @@ react-router | v4.2.2
 babel-preset-es2017 | 6.24.1
 webpack | v3.6.0
 
+## About usage of web3 or ethjs
+- check official docs for [web3](https://github.com/ethereum/wiki/wiki/JavaScript-API)
+- check official docs for [ethjs](https://github.com/ethjs/ethjs)
+
 ## License
 [MIT](https://github.com/amazingandyyy/react-redux-daap/blob/master/LICENSE)
